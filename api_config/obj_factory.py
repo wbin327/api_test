@@ -62,4 +62,4 @@ class BaseRequest(object):
 
 
 if __name__ == '__main__':
-    obj_factory('xpos', 'add_client_mobileandemail')
+    obj_factory(module_dir='xpos', api_name='add_client_mobileandemail')
